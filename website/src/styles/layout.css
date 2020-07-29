@@ -1,0 +1,43 @@
+body {
+  background-color: #e8e5fa;
+}
+
+.container,
+.nav {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.nav {
+  height: 76px;
+}
+
+.nav > a {
+  margin-right: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.shell {
+  height: 100%;
+  height: calc(100vh - 76px);
+  display: grid;
+  place-items: center;
+  color: #6146fb;
+}
+
+.dwarf {
+  margin: 120px auto;
+  display: block;
+}
+
+.about-me {
+  display: grid;
+  grid-template-columns: 120px auto;
+  column-gap: 40px;
+}
+.avatar {
+  height: 120px;
+  margin: 0 auto;
+  display: block;
+}
